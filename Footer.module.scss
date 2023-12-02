@@ -1,0 +1,50 @@
+// Footer.module.scss
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    color: #333;
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    .logo img {
+      margin-bottom: 1rem;
+    }
+  
+    .links {
+      a {
+        color: #333;
+        text-decoration: none;
+        margin: 0 1rem;
+  
+        &:hover {
+          color: #555;
+        }
+      }
+      margin-bottom: 1rem;
+    }
+  
+    .description {
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+  
+    .socialLinks {
+      a {
+        color: #333;
+        margin: 0 0.5rem;
+        font-size: 1.5rem;
+  
+        &:hover {
+          color: #555;
+        }
+      }
+    }
+  }
+  

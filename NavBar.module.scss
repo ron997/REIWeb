@@ -1,0 +1,52 @@
+// NavBar.module.scss
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo img {
+    height: 50px; // Adjust as necessary for your logo
+  }
+  
+  .searchAndIcons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchBar {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  
+    .searchInput {
+      border: none;
+      padding: 0.5rem 1rem;
+      flex-grow: 1; // Input field takes up available space
+    }
+  
+    .searchButton {
+      background: #eee;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      &:hover {
+        background-color: #ddd; // Slight change on hover for feedback
+      }
+    }
+  }
+  
+  .userIcon {
+    margin-left: 1rem;
+    color: #333; // Adjust color as needed
+    cursor: pointer;
+  }
+  
